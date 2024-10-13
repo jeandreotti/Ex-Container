@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    line-height: 19px;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+ 
+}
+
+#cabecario{
+    height: 100px;
+    width: 1100px;
+    display: flex;
+    margin: auto;
+}
+
+#logo{
+   
+    background-color: blue;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: blueviolet;
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+ul  {
+   list-style-type: none;
+   display: flex;   
+}
+li{
+    margin-bottom: 20px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+nav a:hover {
+    
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+nav .active a, nav a:hover {
+    background-color:blue;
+    color: white;
+    }
+
+#corpo1{
+    height: 500px;
+    background: rgba(74, 155, 248, 0.651);
+    width: 1100px;
+    margin: auto;
+}
+
+#box1{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+#tituloTop {
+    background-color: azure;
+    padding: 10px;
+
+}
+
+#box3{
+    background-color: rgb(255, 157, 127);
+    display: flex;
+    height: 200px;
+    margin: auto;
+    color: white;
+    width: 80%;
+}
+
+#tituloEmerg{
+    flex:1;
+    background-color: rgb(102, 102, 211);
+    padding: 15px;
+}
+#tituloDoc{
+    flex:1;
+    background-color: rgb(120, 159, 231);
+    padding: 15px;
+}
+#tituloOpen{
+    flex:1;
+    background-color: rgb(79, 119, 206);
+    padding: 15px;
+}
+#divt1{
+    height: 130px;
+    background-color: rgb(139, 145, 151);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 1.1em;
+}
+
+#text1, #text2, #text3{
+    margin-top: 20px;
+}
+
+#monday , #saturday , #sunday{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+/* -----------fim corpo 1-------------------------------- */
+#telaFundo2{
+    height: 600px;
+    width: 1100px;
+    margin: auto;
+}
+
+#colunas3{
+    display: flex;
+}
+
+#colunas1{
+    flex: 0.8;
+    height: 600px;
+    display: block;
+}
+
+#box6{
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+#miniBox1, #miniBox2, #miniBox3, #miniBox4, #miniBox5, #miniBox6{
+    background-color: rgb(37, 37, 158);
+    width: 100px;
+    height: 100px;
+    
+}
+#appoint{
+    margin: 20px;
+}
+
+#fone, #email, #contato{
+    margin-bottom: 5px;
+}
+
+#colunas2{
+    display: flex;
+    flex: 2.2;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+#container1, #container2, #container3, #container4{
+    background-color: yellowgreen;
+    min-height: 200px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    min-width: 300px;
+    flex: 1;  
+    padding: 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+#caixaData1, #caixaData2, #caixaData3, #caixaData4{
+    height: 100px;
+}
+
+#imgPeople1, #imgPeople2, #imgPeople3,  #imgPeople4 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+}
